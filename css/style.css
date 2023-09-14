@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
+}
+
+.masonry-item {
+  list-style: none;
+  width: 200px;
+  text-align: left;
+  padding: 0;
+  border-radius: 10px;
+  break-inside: avoid;
+  display: flex;
+  flex-direction: column;
+
+}
+.masonry-item span{
+color: rgb(175, 131, 51);
+}
+.masonry-item span:hover{
+  color: wheat;
+  cursor: pointer;
+
+}
+.masonry-item h2{
+  color: wheat;
+  font-family: sans-serif;
+  
+
+}
+
+h1 {
+  color: wheat;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.masonry {
+  /* border: 4px solid; */
+  break-inside: avoid
+
+}
+
+
+
+.masonry__image {
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
